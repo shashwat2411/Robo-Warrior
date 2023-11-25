@@ -1,0 +1,41 @@
+◎ゲームプレー
+・カメラのプログラミング❌
+・Enemy AI to maintain a certain distance and attack the player but only one at a time❌
+・Parry❌
+・Enemy Variations
+・回避行動❌
+・目的　→　ハイスコア❌
+・チュートリアル
+・チャージパンチ
+・サウンドリーダー❌
+・モデルリーダー❌
+・Posture❌
+・damage after posture break❌
+・health bar❌
+・posture bar❌
+・pause❌
+
+
+◎デザイン
+・Shaders
+・敵が死ぬときのPartcile Effect
+・敵のモデル
+・プレーヤーのモデル
+・プレーヤーの表情を作るために顔もバラバラで作る
+・各アニメーション
+・UI
+・Player Idle Animation
+・Player Jump Animation
+・Player Moving Animation
+・Enemy Moving Animation
+・Enemy Attack Animation
+・Enemy Spawn Animation
+・Sound
+・metal sound when parry
+・
+・
+・
+・
+・
+・
+・
