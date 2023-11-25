@@ -98,7 +98,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 			if ((dwCurrentTime - dwFPSLastTime) >= (1000))
 			{
-#ifdef _DEBUG
+#ifdef DEBUG
 				g_CountFPS = dwFrameCount;
 #endif
 				dwFPSLastTime = dwCurrentTime;
@@ -109,7 +109,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 			{
 				dwExecLastTime = dwCurrentTime;
 
-#ifdef _DEBUG	// デバッグ版の時だけFPSを表示する
+#ifdef DEBUG	// デバッグ版の時だけFPSを表示する
 				wsprintf(g_DebugStr, "TRIAL| FPS : %d", g_CountFPS);
 #ifdef DEBUG
 #endif
@@ -118,7 +118,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 				Manager::Update();
 				Manager::Draw();
 
-#ifdef _DEBUG	// デバッグ版の時だけ表示する
+#ifdef DEBUG	// デバッグ版の時だけ表示する
 				//wsprintf(&g_DebugStr[strlen(g_DebugStr)], " MX:%d MY:%d", GetMousePosX(), GetMousePosY());
 				SetWindowText(g_Window, g_DebugStr);
 #endif
