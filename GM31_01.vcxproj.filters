@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダーファイル">
+      <UniqueIdentifier>{a186efb4-e3ef-4172-9da0-d7ce84969bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\コンポーネント">
+      <UniqueIdentifier>{110fb0b8-8427-4454-a60c-cb4cfce0f02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\プレファブ">
+      <UniqueIdentifier>{b361a2c4-adbb-4dd4-adfb-468231056b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\スクリプト">
+      <UniqueIdentifier>{d58f4c39-a77f-4c96-9313-8d1b208e6f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{5860568e-1cbe-47b1-a425-c77fc9c67483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト集">
+      <UniqueIdentifier>{6bb0cf5f-ad7f-4990-b405-1e5f7e491965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\基礎オブジェクト">
+      <UniqueIdentifier>{760768ea-37fd-4791-bab6-40340aec5c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\機能管理">
+      <UniqueIdentifier>{41e0d3b0-738b-41ba-bed1-6f56bd6d8bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\機能管理">
+      <UniqueIdentifier>{99b79591-768d-4f0a-af17-6a5d8b53a602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\プレファブ\敵">
+      <UniqueIdentifier>{1e03767d-e317-4845-8635-9797e7e20087}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="baseobjects.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="prefab.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="customScenes.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\機能管理</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>ヘッダー ファイル\機能管理</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\機能管理</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\機能管理</Filter>
+    </ClInclude>
+    <ClInclude Include="animations.h">
+      <Filter>ヘッダー ファイル\オブジェクト集</Filter>
+    </ClInclude>
+    <ClInclude Include="modelReader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="soundReader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sphereCollider.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="playerMovement.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyScript.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="rigidbody.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\プレファブ</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\基礎オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>ソース ファイル\基礎オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="animator.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAttack.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\プレファブ</Filter>
+    </ClCompile>
+    <ClCompile Include="enemySpawn.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyCollision.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyBrain.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="posture.cpp">
+      <Filter>ソース ファイル\スクリプト</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\機能管理</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>ソース ファイル\機能管理</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\機能管理</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\機能管理</Filter>
+    </ClCompile>
+    <ClCompile Include="DashEnemy.cpp">
+      <Filter>ソース ファイル\プレファブ\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigzagEnemy.cpp">
+      <Filter>ソース ファイル\プレファブ\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="particleSystem.cpp">
+      <Filter>ソース ファイル\コンポーネント</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackEffect.cpp">
+      <Filter>ソース ファイル\プレファブ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingPS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingVS.hlsl">
+      <Filter>シェーダーファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
